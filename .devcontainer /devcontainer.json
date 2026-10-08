@@ -13,7 +13,8 @@
 			"settings": {
 			},
 			"extensions": [
-				"GitHub.github-vscode-theme"
+				"GitHub.github-vscode-theme",
+				"ms-python.python"
 			]
 		}
 	},
