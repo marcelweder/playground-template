@@ -1,4 +1,4 @@
-import sys
-
-def main() -> None:
-    print(" ".join(sys.argv[1:]))
+def greet(name):
+    return f"Hello, {name}"
+    
+print(greet("Alice"))
