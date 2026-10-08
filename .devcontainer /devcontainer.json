@@ -11,10 +11,12 @@
 	"customizations": {
 		"vscode": {
 			"settings": {
+				"python.linting.enabled": true,
+				"python.linting.pylintEnabled": true
 			},
 			"extensions": [
-				"GitHub.github-vscode-theme",
-				"ms-python.python"
+				"ms-python.python",
+				"ms-python.vscode-pylance"
 			]
 		}
 	},
