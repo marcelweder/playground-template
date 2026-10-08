@@ -1,1 +1,23 @@
-{}
+{
+	"name": "Phyton",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			"VARIANT": "3.9-bullseye", // Can change to another version
+			"NODE_VERSION": "lts/*"
+		}
+	},
+	// Configure tool-specific properties.
+	"customizations": {
+		"vscode": {
+			"settings": {
+			},
+			"extensions": [
+				"GitHub.github-vscode-theme"
+			]
+		}
+	},
+	"remoteUser": "vscode",
+	"onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc" //Set Terminal Prompt to $
+}
+// DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
