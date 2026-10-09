@@ -11,12 +11,19 @@
 	"customizations": {
 		"vscode": {
 			"settings": {
+				"[html]": {
+        		"editor.defaultFormatter": "esbenp.prettier-vscode"
+    			},
 				"python.linting.enabled": true,
 				"python.linting.pylintEnabled": true
 			},
 			"extensions": [
+				"dbaeumer.vscode-eslint",  
+        "esbenp.prettier-vscode",
 				"ms-python.python",
-				"ms-python.vscode-pylance"
+				"ms-python.vscode-pylance",
+				"ms-python.debugpy",
+				"ms-python.vscode-python-envs"
 			]
 		}
 	},
